@@ -1,0 +1,196 @@
+body{
+	margin:0px;
+	
+	background-color: #343a37; 
+	
+}
+
+h1{
+	background-color: #30332c;
+	
+	color: white;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-align: center;
+	text-shadow: 2px 2px 5px grey;
+	box-shadow: 3px 3px 3px #ccc;
+	
+	padding: 10px;
+	padding-left: 25px;
+	
+	border-style: solid;
+	border-width:2px;
+	border-color: grey;
+	border-radius: 8px;
+	
+	
+	margin: 10px;
+	margin-top: 5px;   
+	
+	background-image: url(sunflower.jpg);
+}
+h2{
+	font-family: Trebuchet MS, sans-serif;
+	font-weight: 500;
+	
+}
+
+#gg{
+	padding: 5px;
+	
+}
+
+
+#navBar ul{
+	background-color: #1f2c2d ;
+	height: ;
+	margin: 10px;
+	margin-top:0px;
+	text-align:center;
+	
+	border-radius: 8px;
+	
+	background-image: ;
+	
+}
+
+#navBar ul li {
+	display: inline;
+	
+	
+	
+}
+
+#navBar ul li a{
+	text-decoration:none;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin-left: 40px;
+	margin-right: 40px;
+	
+	background-color: ;
+	color: white;
+	
+	padding-top: 5px;
+	padding-bottom:7px;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+#navBar ul li a:hover{
+	background-color: white;
+	color: #1f2c2d;
+	
+}
+
+form.formEnter{
+	
+	width:40%; 
+	
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+    background-color: #f2f2f2;
+	padding: 20px;
+	padding-top: 15px;
+	
+	border-style: solid;
+	border-width:2px solid;
+	border-top-width:0px;
+	border-color: #ccc;
+	
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+   
+	
+}
+label{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: 3F3C3C;
+}
+
+input[type=text]{
+	
+	width:100%;
+	border: 1px solid #ccc;
+    border-radius: 4px;
+	padding:12px;
+	margin: 8px 0 ;
+	
+	
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#submit{
+	
+	padding:15px 35px 15px 35;
+	border: 1px solid #ccc;
+    border-radius: 4px;
+	
+	color: white;
+	background-color: #45a049;
+	
+}
+#submit:hover{
+	background-color: #45a050;
+	
+}
+
+span{
+	color: red;
+}
+
+@media screen and (max-width: 605px) {
+  #navBar ul {
+    height: 80px; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+   #navBar ul li{
+	display: block;
+  }
+  
+  form.formEnter{
+	  width: 65%;
+  }
+} 
+
+#upload ,#delete{
+	width: 50%;
+	text-align: center;
+	padding:15px 35px 15px 35;
+	background-color: white;
+	border-radius: 8px;
+}
+
+table {
+    font-family: arial, sans-serif;
+	background-color: white;
+    border-collapse: collapse;
+    width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th {
+    border: 2px solid black;
+    text-align: left;
+    padding: 8px;
+	
+}
+/*   dddddd*/
+td {
+    border: 2px solid grey;
+    text-align: left;
+    padding: 8px;
+}
+@media screen and (max-width: 308px) {
+  #navBar ul {
+    height: 100px; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+   
+   form.formEnter{
+	  width: 80%;
+  }
+  
+}
+
